@@ -1,0 +1,1 @@
+Faces detection with blur effect applied on detected faces
