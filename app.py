@@ -13,7 +13,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 model.classes = [0]  # Class 0 corresponds to 'person'
 
 # Open the webcam
-cap = cv2.VideoCapture("video.mp4")
+cap = cv2.VideoCapture(0)
 
 def blur_face(image, bbox):
     x1, y1, x2, y2 = map(int, bbox)
