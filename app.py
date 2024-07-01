@@ -127,6 +127,6 @@ if __name__ == "__main__":
                         help="Choose between 'pixelation' and 'blurring' (default: pixelation)")
     args = parser.parse_args()
 
-    process_video('video.mp4', 'output2.avi', args.method)
+    process_video('video.mp4', 'output.avi', args.method)
 
 face_mesh.close()
