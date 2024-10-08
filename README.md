@@ -26,6 +26,6 @@ Options:
 - `--method`: Choose between 'pixelation' (default) and 'blurring'
 
 ````
-py app.py ---method pixelation
-py app.py ---method blurring
+py app.py --method pixelation
+py app.py --method blurring
 ````
